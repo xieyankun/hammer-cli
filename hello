@@ -1,0 +1,33 @@
+#!/usr/bin/env node
+
+// process.argv[] 获取命令输入参数
+// console.log('hello ',  process.argv[2]);
+
+// const name = process.argv[2];
+// const exec = require('child_process').exec;
+// const child = exec('echo hello ' + name, function(err, stdout, stderr) {
+//   if (err) throw err;
+//   console.log(stdout);
+// });
+
+// const name = process.argv[2];
+// const shell = require("shelljs");
+// shell.exec("echo hello000 " + name);
+
+
+// var argv = require('yargs').argv;
+// console.log('hello ', argv.name);
+
+// var argv = require('yargs')
+//   .alias('n', 'name')
+//   .argv;
+// console.log('hello ', argv.n);
+// console.log(argv._);
+
+var argv = require('yargs')
+  .demand(['n'])
+  .default({n: 'tom'})
+  .describe({n: 'your name'})
+  .argv;
+
+console.log('hello ', argv.n);

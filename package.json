@@ -1,0 +1,20 @@
+{
+  "name": "hammer-cli",
+  "version": "0.1.0",
+  "description": "create anything you want",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/xieyankun/hammer-cli.git",
+  "keywords": [
+    "hammer",
+    "cli"
+  ],
+  "author": "killer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xieyankun/hammer-cli/issues"
+  },
+  "homepage": "https://github.com/xieyankun/hammer-cli#readme"
+}
