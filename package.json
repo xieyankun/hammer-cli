@@ -22,8 +22,14 @@
   "homepage": "https://github.com/xieyankun/hammer-cli#readme",
   "dependencies": {
     "commander": "^2.15.1",
+    "debug": "^3.1.0",
     "git-clone": "^0.1.0",
     "shelljs": "^0.8.2",
     "tracer": "^0.8.15"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
   }
 }
